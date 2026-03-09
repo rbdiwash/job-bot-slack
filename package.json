@@ -1,0 +1,19 @@
+{
+  "name": "job-parser-slack",
+  "version": "1.0.0",
+  "description": "Node.js server that finds jobs based on your resume and posts them to Slack",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}
